@@ -24,7 +24,7 @@ int main(void)
 			n2 = n2 + i;
 		}
 	}
-	n3 = n1 + n3;
+	n3 = n1 + n2;
 	printf("%lu\n", n3);
 	return (0);
 }
