@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int int int n1, n2, n3;
+	int n1, n2, n3;
 	int i;
 
 	n1 = 0;
