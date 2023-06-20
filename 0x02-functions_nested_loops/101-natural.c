@@ -25,6 +25,6 @@ int main(void)
 		}
 	}
 	n3 = n1 + n2;
-	printf("%lu\n", n3);
+	printf("%d\n", n3);
 	return (0);
 }
