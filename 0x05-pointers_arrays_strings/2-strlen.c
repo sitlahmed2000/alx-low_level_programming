@@ -1,4 +1,4 @@
-#include "main.h"
+
 /**
  * _strlen - counting length of the array
  * @s: The array coming from outside
