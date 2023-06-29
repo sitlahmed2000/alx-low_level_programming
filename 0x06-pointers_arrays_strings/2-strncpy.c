@@ -5,22 +5,22 @@
  * @n: how many letters will copy them
  * Return: return the dest
  */
-
 char *_strncpy(char *dest, char *src, int n)
 {
-	while (*src != '\0' && n > 0)
+	int i;
+
+	i = 0;
+
+	while (src[i] != '\0' && i < n)
 	{
-		*dest = *src;
-		dest++;
-		src++;
-		n--;
+		dest[i] = src[i];
+		i++;
 	}
 
-	while (n > 0)
+	while (i < n)
 	{
-		*dest = '\0';
-		dest++;
-		n--;
+		dest[i] = '\0';
+		i++;
 	}
 
 	return (dest);
