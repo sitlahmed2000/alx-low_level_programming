@@ -1,5 +1,9 @@
+
 /**
- *
+ * _strcat - collect two string
+ * @dest: the frist string
+ * @src: the second string
+ * Return: return the collect string
  */
 
 char *_strcat(char *dest, char *src)
@@ -13,11 +17,13 @@ char *_strcat(char *dest, char *src)
 		result += dest[n];
 		n++;
 	}
+
 	while (src[i] != '\0')
 	{
-	       result += src[i];
+		result += src[i];
 		i++;
 	}
+
 	dest = result;
-	return dest;
+	return (dest);
 }
