@@ -7,13 +7,13 @@
  *
  * Return: the length the string
  */
-int _strlen(char *a)
+int _strlen(char *s)
 {
 	int i;
 
 	i = 0;
 
-	while (a[i] != '\0')
+	while (s[i] != '\0')
 	{
 		i++;
 	}
