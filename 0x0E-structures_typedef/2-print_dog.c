@@ -6,15 +6,15 @@
  * print_dog - print struct dog
  * @d: struct dog to print
  */
-void print_dog(struct dog *b)
+void print_dog(struct dog *d)
 {
-	if (b == NULL)
+	if (d == NULL)
 		return;
 
-	if (b->name == NULL)
-		b->name = "(nil)";
-	if (b->owner == NULL)
-		b->owner = "(nil)";
+	if (d->name == NULL)
+		d->name = "(nil)";
+	if (d->owner == NULL)
+		d->owner = "(nil)";
 
-	printf("Name: %s\nAge: %f\nOwner: %s\n", b->name, b->age, b->owner);
+	printf("Name: %s\nAge: %f\nOwner: %s\n", d->name, d->age, d->owner);
 }
