@@ -1,1 +1,2 @@
+#define OBJECT_LIKE_MACRO_A
 #define SIZE 1024
