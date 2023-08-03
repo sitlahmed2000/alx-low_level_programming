@@ -4,7 +4,7 @@
 /**
  * flip_bits - flip bits convert one number to another number
  * @n: first number
- * @m: second number to convert 
+ * @m: second number to convert
  * Return: number bits that was needed  flip
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
@@ -23,4 +23,3 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 
 	return (counters);
 }
-
